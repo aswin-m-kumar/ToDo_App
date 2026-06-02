@@ -1,0 +1,29 @@
+name: todo_app
+description: QuestDo - Level Up Your Life
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+  supabase_flutter: ^2.0.0
+  app_ui:
+    path: packages/app_ui
+  authentication_client:
+    path: packages/authentication_client
+  authentication_repository:
+    path: packages/authentication_repository
+  shared:
+    path: packages/shared
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
